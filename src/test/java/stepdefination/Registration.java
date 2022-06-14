@@ -57,8 +57,8 @@ public class Registration extends MainClass {
 	@And("^user should see registration completed message$")
 	public void user_should_see_registration_completed_message() {
 		
-// 			Assert.assertSame(r3.successMsg(),true);
-		Assert.assertSame(r3.successMsg(),true);
+ 			Assert.assertSame(r3.successMsg(),true);
+		        Assert.assertSame(r3.successMsg(),true);
 
 	}
 
