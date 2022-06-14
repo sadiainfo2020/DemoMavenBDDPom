@@ -24,6 +24,5 @@ public class RegistrationHome1 extends MainClass {
 		action.sendKeys(Keys.ENTER).build().perform();
 	}
 	
-	System.out.printin("Hello my dummy code is here");
-	System.out.printin("Hello my 2nd dummy code is here");
+	
 }

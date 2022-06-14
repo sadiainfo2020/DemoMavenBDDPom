@@ -59,6 +59,8 @@ public class Registration extends MainClass {
 		
  			Assert.assertSame(r3.successMsg(),true);
 		        Assert.assertSame(r3.successMsg(),true);
+		        
+		        Assert.assertSame(r3.successMsg(),true);
 
 	}
 
