@@ -14,6 +14,9 @@ public class RegistrationHome1 extends MainClass {
 	
 	Actions action = new Actions(driver);
 	
+//	@FindBy(xpath="//a[contains(text(),'REGISTER')]")
+//	WebElement RegistrationBtn;
+	
 	@FindBy(xpath="//a[contains(text(),'REGISTER')]")
 	WebElement RegistrationBtn;
 	
