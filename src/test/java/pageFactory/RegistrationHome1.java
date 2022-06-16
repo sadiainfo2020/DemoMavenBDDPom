@@ -10,6 +10,8 @@ import base.MainClass;
 
 public class RegistrationHome1 extends MainClass {
 	
+
+	
 	Actions action = new Actions(driver);
 	
 	@FindBy(xpath="//a[contains(text(),'REGISTER')]")
@@ -20,6 +22,7 @@ public class RegistrationHome1 extends MainClass {
 		}
 	
 	public void clickRegistrationBtn() {
+// 		RegistrationBtn.click();
 		RegistrationBtn.click();
 		action.sendKeys(Keys.ENTER).build().perform();
 	}
